@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+
+main,header,nav,ul,figure,figcaption,article,div,section,footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    color-scheme: light black;
+    background-color:white;
+    color:black;
+}
+@media (prefers-color-scheme: dark) {
+      body {
+        background-color: #111;
+        color: #fff;
+      }
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root{
+    --darkColor:#1A1A1A;
+    --darkColor-1:#202020;
+    --whiteColor:#fff;
+    --orangeColor:#FF6600;
+    --fontDM:"DM Sans", sans-serif;
+}
