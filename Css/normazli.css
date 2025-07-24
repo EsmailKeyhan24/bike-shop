@@ -31,8 +31,9 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root{
     --darkColor:#1A1A1A;
-    --darkColor-1:#202020;
+    --c-1:#202020;
     --whiteColor:#fff;
     --orangeColor:#FF6600;
+    --grayColor:#898989;
     --fontDM:"DM Sans", sans-serif;
 }
