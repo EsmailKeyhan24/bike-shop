@@ -30,6 +30,8 @@
   </head>
   <body class="bg-[var(--darkColor)]">
     <main class="w-[90%] m-[0_auto] p-5">
+
+      <!-- ----------------top-left-icons----------------- -->
       <div
         class="ml-5 mt-19 mb-10 w-[140px] h-[40px] rounded-4xl bg-[var(--darkColor-1)] flex justify-between items-center px-5"
       >
@@ -42,17 +44,21 @@
         ></span>
         <span class="text-[var(--whiteColor)] font-bold">FAQ</span>
       </div>
-      <article class="">
+
+      <!-- ----------------hero--------------------- -->
+      <article class="w-full">
         <h1
-          class="text-5xl font-bold leading-light mb-5 text-[var(--whiteColor)]"
+          class="lg:text-5xl text-2xl font-bold leading-light mb-5 text-[var(--whiteColor)]"
         >
           Common <span class="text-[var(--orangeColor)]">Questions</span>
         </h1>
-        <p class="w-[570px] text-xl tracking-widest text-gray-500">
+        <p class="lg:w-[570px] text-xl tracking-widest text-gray-500">
           Please read questions bellow and if you can not find your answer
           please send us your question, we will answer you as soon as possible.
         </p>
       </article>
+
+      <!-- ----------question&FAQS----------------- -->
       <div class="flex items-center gap-5 mt-10">
         <span
           class="w-[60px] h-[60px] bg-[#1A0A00] text-[var(--whiteColor)] flex items-center justify-center text-2xl rounded-full"
@@ -66,7 +72,7 @@
       <!-- _______________accordion-form_section_________________ -->
       <section id="accordian-form" class="w-full mt-10 lg:flex relative">
         <div
-          class="w-[70%] p-15 bg-[var(--darkColor-1)] flex flex-col justify-evenly rounded-xl"
+          class="lg:w-[70%] lg:p-15 bg-[var(--darkColor-1)] flex flex-col justify-evenly rounded-xl"
         >
           <div
             class="collapse collapse-arrow bg-base-100 border border-base-300 group"
@@ -172,8 +178,8 @@
             </div>
           </div>
         </div>
-        <img src="./img/faq.png" alt="bike-img-logo" class="md:absolute -top-100 right-1"/>
-        <form class="w-[28%] rounded-4xl py-10  mt-20 ml-10 bg-[var(--darkColor-1)]">
+        <img src="./img/faq.png" alt="bike-img-logo" class="md:absolute -top-100 right-1 my-5"/>
+        <form class="lg:w-[28%] rounded-4xl py-10  mt-20 lg:ml-10 bg-[var(--darkColor-1)]">
           <div class="flex justify-evenly my-2">
             <div class="w-[45%] "> 
               <p class="text-gray-500 ml-4 capitalize">name (*)</p>
@@ -210,24 +216,25 @@
       </section>
 
       <!-- ________________address_section____________________ -->
-
       <section id="address-section">
-        <div class=" lg:flex justify-evenly overflow-hidden mt-10 border bg-[var(--darkColor-1)] rounded-tr-[100px] rounded-tl-[100px] lg:h-[200px] ">
-          <div class="lg:w-[30%] flex flex-col gap-1 items-center justify-center h-full">
+        <div class=" lg:flex justify-evenly flex flex-col lg:overflow-hidden mt-10 border bg-[var(--darkColor-1)] lg:rounded-tr-[100px] lg:rounded-tl-[100px] rounded-2xl lg:h-[200px] h-[450px]">
+          <div class="lg:w-[30%] flex flex-col gap-1 items-center justify-center lg:h-full">
             <p class="text-lg font-bold text-[var(--orangeColor)] capitalize">pre-sale qustions</p>
             <p class="text-2xl text-[var(--whiteColor)] duration-200 hover:text-[var(--orangeColor)] capitalize cursor-pointer">help@xtrabicycle.com</p>
           </div>
-          <div class="lg:w-[30%] flex flex-col gap-1 items-center justify-center border-gray-500 h-5-%">
+          <div class="lg:w-[30%] flex flex-col gap-1 items-center justify-center border-gray-500 lg:h-full">
             <p class="text-lg font-bold text-[var(--orangeColor)] capitalize">call us</p>
             <p class="text-2xl text-[var(--whiteColor)] duration-200 hover:text-[var(--orangeColor)] capitalize cursor-pointer">+1 800 2345 6789</p>
           </div>
-          <div class="lg:w-[30%] flex flex-col gap-1 items-center justify-center h-full">
+          <div class="lg:w-[30%] flex flex-col gap-1 items-center justify-center lg:h-full">
             <p class="text-lg font-bold text-[var(--orangeColor)] capitalize">our location</p>
             <p class="text-2xl text-[var(--whiteColor)] duration-200 hover:text-[var(--orangeColor)] cursor-pointer capitalize">#2345,Baverly Hills, LA</p>
           </div>
           
         </div>
       </section>
+
+
     </main>
   </body>
 </html>
