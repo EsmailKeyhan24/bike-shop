@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FAQs</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
@@ -19,11 +30,182 @@
   </head>
   <body class="bg-[var(--darkColor)]">
     <main class="w-[90%] m-[0_auto] p-5">
-      <div class=" ml-5 mt-19 w-[140px] h-[40px] rounded-4xl bg-[var(--darkColor-1)] flex justify-between items-center px-5">
-        <span class="text-[var(--whiteColor)] duration-200 hover:text-[var(--orangeColor)]" ><a href="#"><i class="fa-solid fa-house"></i></a></span>
-        <span class="text-gray-700"><i class="fa-solid fa-motorcycle"></i></span>
+      <div
+        class="ml-5 mt-19 mb-10 w-[140px] h-[40px] rounded-4xl bg-[var(--darkColor-1)] flex justify-between items-center px-5"
+      >
+        <span
+          class="text-[var(--whiteColor)] duration-200 hover:text-[var(--orangeColor)]"
+          ><a href="#"><i class="fa-solid fa-house"></i></a
+        ></span>
+        <span class="text-gray-700"
+          ><i class="fa-solid fa-motorcycle"></i
+        ></span>
         <span class="text-[var(--whiteColor)] font-bold">FAQ</span>
       </div>
+      <article class="">
+        <h1
+          class="text-5xl font-bold leading-light mb-5 text-[var(--whiteColor)]"
+        >
+          Common <span class="text-[var(--orangeColor)]">Questions</span>
+        </h1>
+        <p class="w-[570px] text-xl tracking-widest text-gray-500">
+          Please read questions bellow and if you can not find your answer
+          please send us your question, we will answer you as soon as possible.
+        </p>
+      </article>
+      <div class="flex items-center gap-5 mt-10">
+        <span
+          class="w-[60px] h-[60px] bg-[#1A0A00] text-[var(--whiteColor)] flex items-center justify-center text-2xl rounded-full"
+          ><i class="fa-solid fa-question"></i
+        ></span>
+        <p class="font-bold text-xl font-lilght text-[var(--whiteColor)]">
+          F.A.Qs
+        </p>
+      </div>
+      <section id="accordian-form" class="w-full mt-10 lg:flex relative">
+        <div
+          class="w-[70%] p-15 bg-[var(--darkColor-1)] flex flex-col justify-evenly rounded-xl"
+        >
+          <div
+            class="collapse collapse-arrow bg-base-100 border border-base-300 group"
+          >
+            <input
+              type="radio"
+              name="my-accordion-2"
+              class="peer"
+              checked="checked"
+            />
+            <div
+              class="collapse-title font-semibold peer-checked:text-[var(--orangeColor)] peer-checked:bg-[var(--whiteColor)] bg-[var(--darkColor)] text-[var(--whiteColor)] text-lg "
+            >
+              What types of bikes do you sell?
+            </div>
+            <div class="collapse-content tracking-widest font-semibold">
+              We offer road bikes, mountain bikes, hybrid bikes, electric bikes, kids’ bikes, and more to suit all cycling needs. Absolutely! Test rides are available for most models in our store to ensure the right fit and comfort. We stock top brands including Trek, Giant, Specialized, Cannondale, and more. We allow returns or exchanges within 14 days of purchase, provided the bike is in like-new condition.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-arrow bg-base-100 border border-base-300 group"
+          >
+            <input
+              type="radio"
+              name="my-accordion-2"
+              class="peer"
+            />
+            <div
+              class="collapse-title font-semibold peer-checked:text-[var(--orangeColor)] peer-checked:bg-[var(--whiteColor)] bg-[var(--darkColor)] text-[var(--whiteColor)] text-lg"
+            >
+              Can I test ride a bike before buying it?
+            </div>
+            <div class="collapse-content tracking-widest font-semibold">
+              We offer road bikes, mountain bikes, hybrid bikes, electric bikes, kids’ bikes, and more to suit all cycling needs. Absolutely! Test rides are available for most models in our store to ensure the right fit and comfort. We stock top brands including Trek, Giant, Specialized, Cannondale, and more. We allow returns or exchanges within 14 days of purchase, provided the bike is in like-new condition.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-arrow bg-base-100 border border-base-300 group"
+          >
+            <input
+              type="radio"
+              name="my-accordion-2"
+              class="peer"
+            />
+            <div
+              class="collapse-title font-semibold peer-checked:text-[var(--orangeColor)] peer-checked:bg-[var(--whiteColor)] bg-[var(--darkColor)] text-[var(--whiteColor)] text-lg"
+            >
+              Do you sell used or refurbished bikes?
+            </div>
+            <div class="collapse-content tracking-widest font-semibold">
+              We offer road bikes, mountain bikes, hybrid bikes, electric bikes, kids’ bikes, and more to suit all cycling needs. Absolutely! Test rides are available for most models in our store to ensure the right fit and comfort. We stock top brands including Trek, Giant, Specialized, Cannondale, and more. We allow returns or exchanges within 14 days of purchase, provided the bike is in like-new condition.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-arrow bg-base-100 border border-base-300 group"
+          >
+            <input
+              type="radio"
+              name="my-accordion-2"
+              class="peer"
+            />
+            <div
+              class="collapse-title font-semibold peer-checked:text-[var(--orangeColor)] peer-checked:bg-[var(--whiteColor)] bg-[var(--darkColor)] text-[var(--whiteColor)] text-lg"
+            >
+              How do I choose the right size bike?
+            </div>
+            <div class="collapse-content tracking-widest font-semibold">
+              We offer road bikes, mountain bikes, hybrid bikes, electric bikes, kids’ bikes, and more to suit all cycling needs. Absolutely! Test rides are available for most models in our store to ensure the right fit and comfort. We stock top brands including Trek, Giant, Specialized, Cannondale, and more. We allow returns or exchanges within 14 days of purchase, provided the bike is in like-new condition.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-arrow bg-base-100 border border-base-300 group"
+          >
+            <input
+              type="radio"
+              name="my-accordion-2"
+              class="peer"
+            />
+            <div
+              class="collapse-title font-semibold peer-checked:text-[var(--orangeColor)] peer-checked:bg-[var(--whiteColor)] bg-[var(--darkColor)] text-[var(--whiteColor)] text-lg"
+            >
+              What brands of bikes do you carry?
+            </div>
+            <div class="collapse-content tracking-widest font-semibold">
+              We offer road bikes, mountain bikes, hybrid bikes, electric bikes, kids’ bikes, and more to suit all cycling needs. Absolutely! Test rides are available for most models in our store to ensure the right fit and comfort. We stock top brands including Trek, Giant, Specialized, Cannondale, and more. We allow returns or exchanges within 14 days of purchase, provided the bike is in like-new condition.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-arrow bg-base-100 border border-base-300 group"
+          >
+            <input
+              type="radio"
+              name="my-accordion-2"
+              class="peer"
+            />
+            <div
+              class="collapse-title font-semibold peer-checked:text-[var(--orangeColor)] peer-checked:bg-[var(--whiteColor)] bg-[var(--darkColor)] text-[var(--whiteColor)] text-lg "
+            >
+              What’s your return or exchange policy on bikes?
+            </div>
+            <div class="collapse-content tracking-widest font-semibold">
+              We offer road bikes, mountain bikes, hybrid bikes, electric bikes, kids’ bikes, and more to suit all cycling needs. Absolutely! Test rides are available for most models in our store to ensure the right fit and comfort. We stock top brands including Trek, Giant, Specialized, Cannondale, and more. We allow returns or exchanges within 14 days of purchase, provided the bike is in like-new condition.
+            </div>
+          </div>
+        </div>
+        <img src="./img/faq.png" alt="bike-img-logo" class="md:absolute -top-100 right-1"/>
+        <form class="w-[28%] rounded-4xl py-10  mt-20 ml-10 bg-[var(--darkColor-1)]">
+          <div class="flex justify-evenly my-2">
+            <div class="w-[45%] "> 
+              <p class="text-gray-500 ml-4 capitalize">name (*)</p>
+              <input type="name" class="w-full py-4 px-5 rounded-3xl outline-none border-none bg-[var(--darkColor)] mt-2 focus:bg-[var(--whiteColor)]">
+            </div>
+            <div class="w-[45%]"> 
+              <p class="text-gray-500 ml-4 capitalize">email (*)</p>
+              <input type="email" class="py-4 px-5 w-full rounded-3xl outline-none border-none bg-[var(--darkColor)] mt-2 focus:bg-[var(--whiteColor)]">
+            </div>
+          </div>
+            <div class="full px-4 my-4"> 
+              <p class="text-gray-500 ml-4 capitalize">subject (*)</p>
+              <input type="email" class="py-4 px-5 w-full rounded-3xl outline-none border-none bg-[var(--darkColor)] mt-2 focus:bg-[var(--whiteColor)]">
+            </div>
+            <div class="full px-4 my-4"> 
+              <p class="text-gray-500 ml-4 capitalize">subject</p>
+              <input type="email" class="py-4 px-5 w-full rounded-3xl outline-none border-none bg-[var(--darkColor)] mt-2 focus:bg-[var(--whiteColor)]">
+            </div>
+            <div class="full px-4 my-4"> 
+              <p class="text-gray-500 ml-4 capitalize">department</p>
+              <select name="department" id="department" class="w-full px-4 py-2 bg-[var(--darkColor)] mt-2 text-[var(--whiteColor)] rounded-xl border-none">
+                <option value="Businnes department">Businnes Department</option>
+                <option value="porsonal department">Personal Department</option>
+                <option value="support department">Support Department</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <div class="full px-4 my-4"> 
+              <p class="text-gray-500 ml-4 capitalize">your question</p>
+              <textarea name="question" id="question" rows="4" class="w-full border rounded-xl mt-2"></textarea>
+            </div>
+            <button class="capitalize ml-5 bg-[var(--orangeColor)] px-5 py-2 font-bold text-[var(--whiteColor)] rounded-2xl duration-200  hover:bg-[var(--whiteColor)] hover:text-[var(--orangeColor)] cursor-pointer">ask</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
