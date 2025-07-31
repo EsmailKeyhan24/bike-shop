@@ -317,17 +317,17 @@
       <!-- ________________________info____________________ -->
       <section
         id="info-section"
-        class="bg-[var(--darkColor-1)] w-full h-[60vh]"
+        class="bg-[var(--darkColor-1)] w-full lg:h-[60vh] "
       >
         <div class="w-[90%] h-full lg:flex justify-evenly p-5 m-[0_auto]">
           <!-- _____________office-section_______________ -->
-          <div class="w-[25%] p-6">
+          <div class="lg:w-[25%]  p-6">
             <span
-              class="relative text-[var(--whiteColor)] border-b border-b-[0.5px] block w-full pb-4 border-[var(--orangeColor)] font-bold tracking-wide capitalize after:content-[''] after:block after:w-[20px] after:h-[5px] after:rounded-xl after:bg-[var(--orangeColor)] after:mt-2 after:absolute after:-bottom-[3px] mb-6"
+              class="relative text-[var(--whiteColor)] border-b border-b-[0.5px] block w-full pb-4 border-[var(--orangeColor)] font-bold tracking-wide capitalize after:content-[''] after:block after:w-[20px] after:h-[5px] after:rounded-xl after:bg-[var(--orangeColor)] after:mt-2 after:absolute after:-bottom-[3px] lg:after:left-0 after:left-40 mb-6 lg:text-left text-center"
             >
               office
             </span>
-            <div class="flex items-center cursor-pointer">
+            <div class="flex items-center justify-start cursor-pointer">
               <span
                 class="hover:bg-[var(--orangeColor)] hover:text-[var(--whiteColor)] hover:scale-[1.1] duration-200 h-[40px] w-[40px] flex justify-center items-center rounded-4xl bg-[var(--whiteColor)] mr-[10px] text-[var(--orangeColor)]"
               >
@@ -394,7 +394,7 @@
           </div>
 
           <!-- ________________News-section______________ -->
-          <div class="w-[25%] p-6">
+          <div class="lg:w-[25%] p-6">
             <span
               class="relative text-[var(--whiteColor)] border-b border-b-[0.5px] block w-full pb-4 border-[var(--orangeColor)] font-bold tracking-wide capitalize after:content-[''] after:block after:w-[20px] after:h-[5px] after:rounded-xl after:bg-[var(--orangeColor)] after:mt-2 after:absolute after:-bottom-[3px]"
               >news</span
@@ -458,7 +458,7 @@
           </div>
 
           <!-- ________________Shortcuts-section______________ -->
-          <div class="w-[25%] p-6">
+          <div class="lg:w-[25%] p-6">
             <span
               class="relative text-[var(--whiteColor)] border-b border-b-[0.5px] block w-full pb-4 border-[var(--orangeColor)] font-bold tracking-wide capitalize after:content-[''] after:block after:w-[20px] after:h-[5px] after:rounded-xl after:bg-[var(--orangeColor)] after:mt-2 after:absolute after:-bottom-[3px]"
               >shortcuts</span
@@ -541,7 +541,7 @@
           </div>
 
           <!-- ________________Working-section______________ -->
-          <div class="w-[25%] p-6">
+          <div class="lg:w-[25%] p-6">
             <span
               class="relative text-[var(--whiteColor)] border-b border-b-[0.5px] block w-full pb-4 border-[var(--orangeColor)] font-bold tracking-wide capitalize after:content-[''] after:block after:w-[20px] after:h-[5px] after:rounded-xl after:bg-[var(--orangeColor)] after:mt-2 after:absolute after:-bottom-[3px]"
               >working</span
@@ -558,9 +558,9 @@
         </div>
       </section>
       <!-- _________________footer-section___________________ -->
-      <footer class="w-full lg:px-29 lg:flex lg:justify-between lg:items-center h-[60px] bg-[var(--darkColor)]">
+      <footer class="w-full lg:px-29 lg:flex lg:justify-between lg:items-center lg:h-[60px] bg-[var(--darkColor)] text-center py-4">
         <p class="text-gray-500 text-sm font-bold">Copyright © 2025 Xtra Theme. All Rights Reserved.</p>
-        <img src="./img/payment.png" alt="" class="h-[20px]">
+        <img src="./img/payment.png" alt="" class="h-[20px] m-[0_auto] my-2">
       </footer>
     </main>
   </body>
